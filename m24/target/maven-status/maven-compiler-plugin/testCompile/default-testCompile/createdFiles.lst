@@ -1,0 +1,3 @@
+com\ebac\vendas\dao\impl\ClienteDAOTest.class
+com\ebac\vendas\dao\impl\NotaFiscalDAOTest.class
+com\ebac\vendas\domain\ProdutoTest.class
