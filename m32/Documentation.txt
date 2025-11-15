@@ -1,0 +1,23 @@
+# Documentação dos Testes Unitários da Classe Produto
+> Introdução
+Este documento descreve os testes unitários para a classe Produto utilizando JUnit, Hibernate e PostgreSQL como banco de dados. A configuração do ambiente, o código dos testes e os resultados esperados são detalhados a seguir.
+
+> Estrutura do Projeto
+src/main/java: Contém as classes principais.
+
+- Produto.java: Classe de domínio que representa o produto.
+- ProdutoDao.java: Classe de acesso aos dados (DAO) para a entidade Produto.
+- IProdutoDao.java: Interface para o DAO de Produto.
+- src/test/java: Contém as classes de teste.
+- ProdutoTest.java: Classe de teste para a entidade Produto.
+
+> Classe Produto
+A classe Produto representa um produto com atributos como id, nome e preco.
+
+> Interface IProdutoDao
+A interface define os métodos de acesso aos dados.
+
+> Classe ProdutoDao
+Implementa a interface IProdutoDao utilizando Hibernate para interagir com o banco de dados.
+
+### A execução dos testes unitários confirma que as operações básicas de CRUD (Criar, Ler, Atualizar, Deletar) para a entidade Produto estão funcionando conforme o esperado. A configuração do Hibernate e a integração com o banco de dados PostgreSQL foi bem-sucedida.
